@@ -7,6 +7,8 @@ pickle_out = open("meals", "wb")
 pickle.dump(data, pickle_out)
 pickle_out.close()
 
+#random changes
+
 # results_log = [[]]
 # pickle_out = open("log", "wb")
 # pickle.dump(results_log, pickle_out)
