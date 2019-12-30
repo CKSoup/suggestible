@@ -12,4 +12,6 @@ Alternatively you can download the complete zip file here:
 
 https://mega.nz/#!DoYH2aZR!CXoBkv88zluIJFxVPAUA6zNZq6u2i7A83BCAHXzDRYQ
 
+The author assumes no liability and provides no guarantee for the functioning or effects of this software.
+
 The author and copyright holder of this program is Noah Tropper, CKSoup. 
