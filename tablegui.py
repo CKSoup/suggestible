@@ -1,9 +1,8 @@
 import sys
-from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
+from PyQt5.QtGui import QIcon
 import pandas as pd
-import time
 
 
 class App(QWidget):
@@ -16,14 +15,12 @@ class App(QWidget):
         self.width = 400
         self.height = 500
         self.initUI()
+        self.setWindowIcon(QIcon('icon.png'))
 
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
-
         self.createTable()
-
-
 
         def check_fun(decision):
             qwidget = QWidget()
@@ -65,12 +62,11 @@ class App(QWidget):
             df.to_csv("meals.csv", index=True)
 
             save_text.setHidden(False)
-            QTimer.singleShot(2000, hide_again)
+            QTimer.singleShot(1000, hide_again)
 
         def hide_again():
             save_text.setHidden(True)
-
-
+            self.close()
 
         miniwindow = QWidget()
         meal_btn = QPushButton("Add Meal")
@@ -148,8 +144,6 @@ class App(QWidget):
             else:
                 checkbox.setChecked(False)
                 self.tableWidget.setCellWidget(rows, 2, qwidget)
-
-        # self.tableWidget.move(0, 0)
 
 
 

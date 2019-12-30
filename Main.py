@@ -79,39 +79,10 @@ def main(romeo, ratio):
             foods.append(meals.at[suggestions[index], "Dish"])
         return foods
 
-    # placeholder_end = "2019-12-12"
-    # placeholder_beg = "2019-12-04"
-
-    # def dates(starting, ending):
-    #     #end = ending.date()
-    #     #start = starting.date()
-    #     st = starting
-    #     en = ending
-    #     #en = end.toString("yyyy-MM-dd")
-    #     en = parse(en)
-    #     #st = start.toString("yyyy.MM.dd")
-    #     st = parse(st)
-    #
-    #     def daterange(st, en):
-    #         for n in range(int((en - st).days) + 1):
-    #             yield st + timedelta(n)
-    #
-    #     fin_dates = []
-    #     for dt in daterange(st, en):
-    #         fin_dates.append(dt.strftime("%A %d.%m"))
-    #
-    #     return fin_dates
-    #
-    # romeo = dates(placeholder_beg, placeholder_end)
-
     days = len(romeo)
     results = food_suggestions(ratio)
 
     results_log = np.append(results_log[len(results_log)-50:len(results_log)], results)
-
-    # foods = []
-    # for index in range(0, len(results)):
-    #     foods.append(meals.at[results[index], "Dish"])
 
     data0 = pd.DataFrame(columns=["Date", "Dish"])
     data0["Date"] = romeo
@@ -122,7 +93,6 @@ def main(romeo, ratio):
     pickle_out.close()
 
     mine = data0
-    # Code for plotly table
 
     layout = go.Layout(margin=dict(l=10, r=10, t=10, b=0),
                        paper_bgcolor="rgb(239,239,239)",

@@ -1,35 +1,35 @@
 ,active,Dish,Vegetarian
-0,False,Rick & Morty,False
-1,True,Broccoli Cheddar Potatoes,True
-2,True,Tuna Melts,False
-3,True,Minestrone Soup,True
-4,True,Flammkuchen,True
-5,True,Marroccan Butternut Stew,True
-6,True,Hamburgers,False
-7,True,Curry,True
-8,True,Greek Pasta,True
-9,True,Spaghetti/Pasta,True
-10,True,Falafel,True
-11,True,Risotto,True
-12,True,Pineaple Fried Rice,True
-13,True,Burritos,False
-14,True,Pasta Putanesca,False
-15,True,Meat Lasagna,False
-16,True,Faschierte Laibchen,False
-17,True,Catalan Beans w. Polenta,True
-18,True,Potato Fritters,True
-19,True,Enchiladas,True
-20,True,Soup & Kaiserschmarrn/Palatschinken,True
-21,True,Ribollita,True
-22,True,Fried Rice,True
-23,True,Vegetable Lasagna,True
-24,True,Chilli,True
-25,True,Pizza Baguettes,True
-26,True,Quinoa Patties,True
-27,True,Greek Salad,True
-28,True,Gulasch,False
-29,True,Asian Peanut Noodles,True
-30,True,Steak,False
+0,True,Asian Peanut Noodles,True
+1,True,Okra,True
+2,True,Greek Salad,True
+3,True,Tuna Melts,False
+4,True,Minestrone Soup,True
+5,True,Flammkuchen,True
+6,True,Marroccan Butternut Stew,True
+7,True,Hamburgers,False
+8,True,Curry,True
+9,True,Greek Pasta,True
+10,True,Spaghetti/Pasta,True
+11,True,Falafel,True
+12,True,Risotto,True
+13,True,Pineaple Fried Rice,True
+14,True,Burritos,False
+15,True,Pasta Putanesca,False
+16,True,Meat Lasagna,False
+17,True,Faschierte Laibchen,False
+18,True,Catalan Beans w. Polenta,True
+19,True,Potato Fritters,True
+20,True,Enchiladas,True
+21,True,Soup & Kaiserschmarrn/Palatschinken,True
+22,True,Ribollita,True
+23,True,Fried Rice,True
+24,True,Vegetable Lasagna,True
+25,True,Chilli,True
+26,True,Pizza Baguettes,True
+27,True,Gulasch,False
+28,True,Steak,False
+29,True,Gorgonzola Noodles,True
+30,True,Tuscan Beans,True
 31,True,French Toast,True
 32,True,Tomatoes and Mozzarella,True
 33,True,Bratwurt/Blutwurst,False
@@ -42,8 +42,8 @@
 40,True,Tuna Patties w. Wasabi Greens,False
 41,True,French Onion Soup,True
 42,True,Shrimp Pasta,False
-43,True,Gorgonzola Noodles,True
-44,True,Salmon,False
+43,True,Salmon,False
+44,True,Broccoli Cheddar Potatoes,True
 45,True,Hummus & Baba Ganoush,True
 46,True,Peanut Chicken,False
 47,True,Trout,False
@@ -55,5 +55,4 @@
 53,True,Spätzle,True
 54,True,Spinach Strudel,True
 55,True,Beef Stew,False
-56,True,Tuscan Beans,True
-57,True,Okra,True
+56,True,Quinoa Patties,True
